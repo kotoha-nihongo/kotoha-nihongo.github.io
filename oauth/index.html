@@ -1,0 +1,6 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>OAuth</title></head><body style="font-family:sans-serif;max-width:640px;margin:40px auto;padding:0 16px">
+<h1>認可コード</h1><p>下のコードを secrets/accounts.txt の THREADS_CODE= に貼ってください（1時間で失効します）。</p>
+<textarea id="c" rows="6" style="width:100%"></textarea>
+<script>var p=new URLSearchParams(location.search);document.getElementById('c').value=(p.get('code')||p.get('error_description')||'(コードなし)').replace(/#_$/,'');</script>
+</body></html>
