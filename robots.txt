@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kotoha-nihongo.github.io/sitemap.xml
